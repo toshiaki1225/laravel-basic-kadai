@@ -2,12 +2,12 @@
 
   namespace App\Http\Controllers;
 
-  use illuminate\Http\Request;
+  use Illuminate\Http\Request;
 
   class PostController extends Controller{
 
     public function index(){
-      return view('index');
+      return view('posts.index');
 
     }
 
